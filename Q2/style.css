@@ -1,0 +1,85 @@
+.title {
+    font-family: Algerian;
+}
+
+.link {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(240, 248, 171);
+    padding: 10px;
+}
+
+.img {
+    text-align: center;
+}
+
+.wc {
+    margin-left: 50px;
+}
+
+.adbc{
+    background: rgb(148, 189, 238);
+}
+
+.login-form{
+    width: 360px;
+    background: #f1f1f1;
+    height: 190px;
+    padding: 80px 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+.login-form h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logbtn{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: linear-gradient(120deg, #3498db, #dd16bc);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.logbtn:hover{
+    background-position: right;
+}
+
+.bottom-text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.txtb{
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 30px 0;
+}
+
+.txtb input{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    padding: 0 5px;
+    height: 20px;
+}
